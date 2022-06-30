@@ -1,0 +1,45 @@
+{
+  "id": "who_we_are_section",
+  "type": "SharedSlice",
+  "name": "WhoWeAreSection",
+  "description": "WhoWeAreSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "WhoWeAreSection",
+      "primary": {
+        "whoWeAreSectionTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Titulo da seção quem somos",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading3"
+          }
+        },
+        "whoWeAreSectionDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Descrição da seção que somos",
+            "placeholder": "Descrição seção que somos",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          }
+        },
+        "whoWeAreSectionImage": {
+          "type": "Image",
+          "config": {
+            "label": "Who We Are Section Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

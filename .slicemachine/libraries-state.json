@@ -1,0 +1,188 @@
+{
+  "slices": {
+    "components": {
+      "hero_section": {
+        "library": "slices",
+        "id": "hero_section",
+        "name": "HeroSection",
+        "description": "HeroSection",
+        "model": {
+          "id": "hero_section",
+          "type": "SharedSlice",
+          "name": "HeroSection",
+          "description": "HeroSection",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroSection",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "heroBackgroundImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Hero Background Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "hero_section",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Empower extensible markets",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Laboris aliqua sint aliqua laborum. Adipisicing nostrud ullamco laboris ad labore proident consectetur magna veniam. Reprehenderit est aute adipisicing mollit cupidatat.",
+                  "spans": []
+                }
+              ],
+              "heroBackgroundImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "who_we_are_section": {
+        "library": "slices",
+        "id": "who_we_are_section",
+        "name": "WhoWeAreSection",
+        "description": "WhoWeAreSection",
+        "model": {
+          "id": "who_we_are_section",
+          "type": "SharedSlice",
+          "name": "WhoWeAreSection",
+          "description": "WhoWeAreSection",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "WhoWeAreSection",
+              "primary": {
+                "whoWeAreSectionTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Titulo da seção quem somos",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": false,
+                    "single": "heading3"
+                  }
+                },
+                "whoWeAreSectionDescription": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Descrição da seção que somos",
+                    "placeholder": "Descrição seção que somos",
+                    "allowTargetBlank": false,
+                    "single": "paragraph"
+                  }
+                },
+                "whoWeAreSectionImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Who We Are Section Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "who_we_are_section",
+            "items": [],
+            "primary": {
+              "whoWeAreSectionTitle": [
+                {
+                  "type": "heading3",
+                  "text": "Engage ubiquitous infrastructures",
+                  "spans": []
+                }
+              ],
+              "whoWeAreSectionDescription": [
+                {
+                  "type": "paragraph",
+                  "text": "Laborum proident cupidatat velit.",
+                  "spans": []
+                }
+              ],
+              "whoWeAreSectionImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/home/renato/dev/prismic_test_js/.slicemachine/assets/slices/WhoWeAreSection/default/preview.png",
+            "width": 800,
+            "height": 67
+          }
+        }
+      }
+    }
+  }
+}
